@@ -11,3 +11,7 @@ def test_mul():
 
 def test_dev():
     assert funcs.dev(10, 2) == 5
+
+
+def test_sub():
+    assert funcs.sub(10, 10) == 0
