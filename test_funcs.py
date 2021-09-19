@@ -7,3 +7,7 @@ def test_add():
 
 def test_mul():
     assert funcs.mul(10, 10) == 100
+
+
+def test_dev():
+    assert funcs.dev(10, 2) == 5
