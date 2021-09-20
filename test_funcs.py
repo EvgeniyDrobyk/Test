@@ -2,11 +2,12 @@ import funcs
 
 
 def test_add():
-    assert funcs.add (4, 5) == 9
+    assert funcs.add(4, 5) == 9
 
 
 def test_mul():
-    assert funcs.mul(10, 10) == 100
+    assert funcs.mul(3, 'Hello ') == 'Hello Hello Hello '
+    print(funcs.mul(3, 'Hello'), "PASSED")
 
 
 def test_dev():
@@ -15,3 +16,8 @@ def test_dev():
 
 def test_sub():
     assert funcs.sub(10, 10) == 0
+
+
+def test_str():
+    string = funcs.str('he')
+    assert type(string) is str

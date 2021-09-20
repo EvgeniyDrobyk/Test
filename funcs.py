@@ -12,3 +12,6 @@ def dev(x, y):
 
 def sub(x, y):
     return x - y
+
+def str(x):
+    return x
